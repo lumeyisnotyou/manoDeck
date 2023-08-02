@@ -1,6 +1,6 @@
 {
-    "name": "Sample Simple Theme",
-    "author": "SuchMeme",
+    "name": "manoDeck",
+    "author": "lumey",
     "manifest_version": 3,
     "target": "Other",
     "description": "This is a sample theme that turns the QAM black",
