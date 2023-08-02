@@ -1,7 +1,7 @@
 {
 	"name": "manoDeck",
 	"author": "lumey",
-	"target": "Other",
+	"target": "system-wide",
 	"version": "v1.0",
 	"description": "personal theme based on my sona's colors!",
 	"manifest_version": 5,

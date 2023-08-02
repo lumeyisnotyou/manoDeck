@@ -1,46 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Libre+Barcode+39+Text&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 :root {
-    --test-main-color: #000;
-    --bg-color: #191c1e;
-    --bg-color2: #23272a;
-    --item-active: #12191e;
-    --virtualmenu-accent: #bcdceb;
-    --left-track-color: #bcdceb !important;
-    --virtualmenupointer-color: #bcbceb;
-    --recentGamesGradient: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(25, 28, 30, 1) 100%);
+    --md-bg-color: #191c1e;
+    --md-bg-color2: #23272a;
+    --md-item-active: #12191e;
+    --md-accent: #bcdceb;
+    --md-recentGamesGradient: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(25, 28, 30, 1) 100%);
 }
 
 @keyframes fadein {
     from { background: #bcdceb47; }
-    to   { background: var(--item-active) }
+    to   { background: var(--md-item-active) }
 }
 
 @keyframes fadeinSidebar {
     from { background: #bcdceb47; }
-    to   { background: var(--virtualmenu-accent) }
+    to   { background: var(--md-accent) }
 }
 
 .quickaccessmenu_QuickAccessMenu_V0cr-,.quickaccessmenu_Title_34nl5,.quickaccessmenu_Tab_1S76C {
-    background: var(--bg-color);
+    background: var(--md-bg-color);
 }
 .gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o {
-    background: var(--bg-color2);
+    background: var(--md-bg-color2);
 }
 .gamepadhome_TabbedContent_cE1Sa {
-    background: var(--bg-color);
+    background: var(--md-bg-color);
 }
 
 .gamepadslider_SliderTrack_Mq25N {
     --left-track-color: var(--virtualmenu-accent) !important;
 }
 .mainmenu_Menu_23IDi {
-    background: var(--bg-color);
+    background: var(--md-bg-color);
 }
 .gamepaddialog_ToggleRail_2JtC3::before {
-    background: var(--virtualmenu-accent);
+    background: var(--md-accent);
 }
 .gamepadhomewhatsnew_EventType_1f0dZ, .gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType13_16aly {
-    color: var(--virtualmenu-accent);
+    color: var(--md-accent);
     font-family: "Space Mono";
 }
 
@@ -54,11 +51,11 @@
 }
 
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
-    background: var(--recentGamesGradient);
+    background: var(--md-recentGamesGradient);
 }
 
 .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin, .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r.gamepadpagedsettings_Active_22LLB {
-    background: var(--virtualmenu-accent);
+    background: var(--md-accent);
     color: #000 !important;
     animation-name: fadein;
     
@@ -74,10 +71,10 @@ button {
 }
 
 .gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle {
-    background: var(--bg-color)
+    background: var(--md-bg-color)
 }
 .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r {
-    background: var(--virtualmenu-accent);
+    background: var(--md-accent);
     color: #000;
     padding-left: 25px;
 }
@@ -86,7 +83,7 @@ button {
 
 .gamepadcontextmenu_contextMenuItem_1sdvo {
     min-width: 300px;
-    background: var(--bg-color);
+    background: var(--md-bg-color);
     font-size: large;
     transition: all 0.2s ease-in-out;
 }
@@ -102,12 +99,12 @@ button {
 
 
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:active, button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active, button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:active:active, button.gamepaddialog_Button_1kn70.DialogButton:hover.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:hover:active, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
-    background: var(--virtualmenu-accent);
+    background: var(--md-accent);
     color: #000;
     outline: none;
 }
 button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn70.DialogButton.Primary, button.gamepaddialog_Button_1kn70.DialogButton:enabled, button.gamepaddialog_Button_1kn70.DialogButton:enabled.Primary, button.gamepaddialog_Button_1kn70.DialogButton:active, button.gamepaddialog_Button_1kn70.DialogButton:active.Primary, button.gamepaddialog_Button_1kn70.DialogButton:hover, button.gamepaddialog_Button_1kn70.DialogButton:hover.Primary, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary {
-    background: var(--bg-color2);
+    background: var(--md-bg-color2);
 }
 
 .marquee_Content_2ADpT, .quickaccessmenu_Title_34nl5 > div, .quickaccessmenu_Title_34nl5, .quickaccesscontrols_Text_1hJkB, .appactionbutton_ButtonText_33cnX, .recentlycompleted_RecentlyCompleted_3fDIR, .appdetailsplaysection_PlayBarLabel_34lrt, .recentlycompleted_Header_NhBU2, .gamepadhomefriends_FriendsHeader_1Ejje, .appdetailssectionheader_LabelText_3i0ko, .personanameandstatus_playerName_r62qz, .appactivityday_AppActivityDate_19LfM, .homestorecarousel_Header_xpRXv, .gamepadtabbedpage_TabTitle_1nq0i, .DialogHeader, .gamepadhomerecentgames_RecentGamesHeader_35iRe, .appportrait_Message_3CRLA  {
@@ -117,24 +114,24 @@ button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn7
 
 
 .GamepadMode.friendlist {
-    background: var(--bg-color);
+    background: var(--md-bg-color);
 }
 .appportrait_Draggable_1pwP4 {
     border-radius: 50%;
 }
 
 .gamepadlibrary_GamepadLibrary_ZBBhe {
-    background: var(--bg-color);
+    background: var(--md-bg-color);
 }
 
 .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
-    background: var(--virtualmenu-accent);
+    background: var(--md-accent);
     color: #000;
     animation-name: fadeinSidebar;
 }
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5:focus,.mainmenu_Item_2w9Tp.gpfocus {
 
-    background: var(--item-active);
+    background: var(--md-item-active);
     color: #000 !important;
     animation-name: fadein;
 }
@@ -157,6 +154,6 @@ button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn7
 }
 
 .gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
-    background: var(--virtualmenu-accent);
+    background: var(--md-accent);
     color: #000;
 }
