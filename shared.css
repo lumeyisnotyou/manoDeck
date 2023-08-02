@@ -17,7 +17,22 @@
     to   { background: var(--md-accent) }
 }
 
-.quickaccessmenu_QuickAccessMenu_V0cr-,.quickaccessmenu_Title_34nl5,.quickaccessmenu_Tab_1S76C {
+.gamepaddialog_ModalPosition_30VHl>.gamepaddialog_GamepadDialogContent_3joNk {
+    background: var(--md-bg-color);
+}
+button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddialog_Button_1kn70.DialogButton:active.Primary, button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus.Primary, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active.Primary, button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus.Primary, button.gamepaddialog_Button_1kn70.DialogButton:active:active.Primary, button.gamepaddialog_Button_1kn70.DialogButton:hover.gpfocus.Primary, button.gamepaddialog_Button_1kn70.DialogButton:hover:active.Primary, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus.Primary, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active.Primary {
+    background: var(--md-accent);
+    color: #000;
+    outline: none;
+}
+
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ.Focusable:focus, .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_SubMenu_1_tPN.gamepadcontextmenu_active_2Pk-x {
+    background: var(--md-accent);
+    color: #000;
+    outline: none;
+}
+
+.quickaccessmenu_QuickAccessMenu_V0cr-,.quickaccessmenu_Title_34nl5,.quickaccessmenu_Tab_1S76C, .gamepadpage_GamepadPage_2FqpD.gamepadpage_DialogBackground_2msTK {
     background: var(--md-bg-color);
 }
 .gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o {
@@ -77,6 +92,7 @@ button {
     background: var(--md-accent);
     color: #000;
     padding-left: 25px;
+    font-size: x-large;
 }
 
 
