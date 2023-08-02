@@ -3,7 +3,7 @@
 	"author": "lumey",
 	"target": "Other",
 	"version": "v1.0",
-	"description": "based on my sona's colors!",
+	"description": "personal theme based on my sona's colors!",
 	"manifest_version": 5,
 	"inject": {
 		"shared.css": [
