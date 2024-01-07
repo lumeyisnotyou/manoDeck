@@ -2,9 +2,9 @@
 	"name": "manoDeck",
 	"author": "lumey",
 	"target": "System-Wide",
-	"version": "v1.0",
+	"version": "v1.1",
 	"description": "personal theme based on my sona's colors!",
-	"manifest_version": 5,
+	"manifest_version": 9,
 	"inject": {
 		"shared.css": [
 			"SP",

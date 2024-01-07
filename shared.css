@@ -60,9 +60,13 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
     filter: saturate(0.5) blur(5px);
 }
 
+.lockscreen_NumericButtonOption_2c4Hz.Panel {
+    font-family: "Space Mono" !important;
+}
+
 .header_Clock_1HhLU {
     font-family: "Libre Barcode 39 Text" !important;
-    font-size: 40px;
+    font-size: 40px !important;
 }
 
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
